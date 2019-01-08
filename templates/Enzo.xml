@@ -1,0 +1,50 @@
+<templateSet group="Enzo">
+  <template name="syso" value="System.out.println(&quot;&quot;);" description="打印语句" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="main" value="public static void main(String[] args){&#10;    &#10;}" description="main方法" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="con" value="console.log(&quot;&quot;);" description="js打印控制台" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="$.ajax" value="$.ajax({&#10;    url:'${LUI_ContextPath}/km/crm/customer/km_customer_info/kmCrmCustomerRank.do?method=getTagList',&#10;    type:'post',&#10;    data:{},&#10;    success:function(data){&#10;        alert(&quot;success&quot;);&#10;    },error:function(){&#10;        alert(&quot;error&quot;);&#10;    }&#10;&#10;});" description="ajax" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="*" value="*&#10; *author EnzoLuo&#10; *date   $date$ $time$&#10; *params $params$&#10; *return $return$&#10; */   " description="add method comment" toReformat="false" toShortenFQNames="true">
+    <variable name="date" expression="date(&quot;yyyy/MM/dd&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="time" expression="time()" defaultValue="" alwaysStopAt="true" />
+    <variable name="params" expression="methodParameters()" defaultValue="" alwaysStopAt="true" />
+    <variable name="return" expression="methodReturnType()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GO" value="true" />
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="try" value="try{&#10;&#10;}catch(Exception e){&#10;    e.printStackTrace();&#10;}" description="异常处理" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="&lt;!--" value="&lt;!----&gt;" description="页面注释" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="true" />
+      <option name="XML" value="true" />
+    </context>
+  </template>
+</templateSet>
