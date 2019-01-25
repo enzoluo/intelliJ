@@ -6,14 +6,15 @@
     <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="WITH_SUBDIRECTORIES" value="false" />
     <option name="SEARCH_SCOPE" value="Project and Libraries" />
+    <option name="FILE_MASK" value="*.xml" />
     <mask>*.as</mask>
     <mask>*.mxml</mask>
     <mask>*.css</mask>
     <mask>*.js</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
+    <mask>*.properties</mask>
     <mask>*.java</mask>
     <mask>*.xml</mask>
-    <mask>*.properties</mask>
   </component>
 </application>
