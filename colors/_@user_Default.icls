@@ -1,11 +1,21 @@
 <scheme name="_@user_Default" version="142" parent_scheme="Default">
+  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="created">2018-04-03T22:03:13</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2018.1.0.0</property>
-    <property name="modified">2018-05-31T09:58:06</property>
+    <property name="modified">2019-12-12T23:29:20</property>
     <property name="originalScheme">Default</property>
   </metaInfo>
+  <option name="LINE_SPACING" value="1.2" />
+  <font>
+    <option name="EDITOR_FONT_NAME" value="Consolas" />
+    <option name="EDITOR_FONT_SIZE" value="19" />
+  </font>
+  <font>
+    <option name="EDITOR_FONT_NAME" value="Monospaced" />
+    <option name="EDITOR_FONT_SIZE" value="19" />
+  </font>
   <colors>
     <option name="GUTTER_BACKGROUND" value="b2f06a" />
     <option name="METHOD_SEPARATORS_COLOR" value="ff8193" />
