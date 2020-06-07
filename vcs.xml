@@ -22,9 +22,13 @@
           <option name="url" value="https://github.com/yuzhiqiang1993/zxing.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/elunez/eladmin.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Users\10947\Desktop" />
+    <option name="cloneParentDir" value="D:\Enzo\workspace\IDEA" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ORDER">
