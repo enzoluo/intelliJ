@@ -6,11 +6,11 @@
     <mask>*.as</mask>
     <mask>*.mxml</mask>
     <mask>*.css</mask>
-    <mask>*.js</mask>
-    <mask>*.html</mask>
     <mask>*.properties</mask>
     <mask>*.jsp</mask>
     <mask>*.xml</mask>
     <mask>*.java</mask>
+    <mask>*.html</mask>
+    <mask>*.js</mask>
   </component>
 </application>
