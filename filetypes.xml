@@ -7,6 +7,7 @@
       <mapping pattern="S01StringStringBufferStringBuilder.md" type="Native" />
       <mapping pattern="S03TryCatchFinally.md" type="Native" />
       <mapping pattern="这个target文件夹里的东西不要提交" type="PLAIN_TEXT" />
+      <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="style" type="PLAIN_TEXT" />
       <mapping pattern="sql语句" type="PLAIN_TEXT" />
       <mapping pattern="S06Synchronized.md" type="PLAIN_TEXT" />
