@@ -4,6 +4,7 @@
     <extensionMap>
       <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="*.js.flow" type="Flow" />
+      <mapping ext="gradle.kts" type="Kotlin" />
       <mapping pattern="S01StringStringBufferStringBuilder.md" type="Native" />
       <mapping pattern="S03TryCatchFinally.md" type="Native" />
       <mapping pattern="这个target文件夹里的东西不要提交" type="PLAIN_TEXT" />
