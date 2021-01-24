@@ -15,6 +15,7 @@
       <mapping pattern="demo" type="PLAIN_TEXT" />
       <mapping pattern="obj" type="PLAIN_TEXT" />
       <mapping pattern="README" type="PLAIN_TEXT" />
+      <mapping pattern="上传到本地仓库maven命令" type="PLAIN_TEXT" />
       <mapping ext="license" type="PLAIN_TEXT" />
       <mapping ext="jks" type="PLAIN_TEXT" />
       <mapping ext="woff" type="PLAIN_TEXT" />
