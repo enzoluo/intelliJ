@@ -50,6 +50,10 @@
           <option name="url" value="https://gitee.com/Enzoluo/mvn-repository.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/seaswalker/spring-analysis.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\Enzo\workspace\IDEA" />
