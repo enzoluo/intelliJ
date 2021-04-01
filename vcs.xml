@@ -62,9 +62,21 @@
           <option name="url" value="https://gitee.com/log4j/pig-ui.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://192.168.1.200/thinkive/tech/rd/thinkive-micro-service/spring-cloud-demo/junit-demo.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://192.168.1.200" />
+          <option name="userName" value="luozb" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://192.168.1.200/thinkive/tech/rd/thinkive-micro-service/spring-cloud-demo/demo-xxljob-executor.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\Enzo\workspace\IDEA" />
+    <option name="cloneParentDir" value="D:\Enzo\work\00thinkive\workspace\spring-cloud-demo" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ORDER">
