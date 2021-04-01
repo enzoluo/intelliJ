@@ -11,6 +11,7 @@
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="style" type="PLAIN_TEXT" />
       <mapping pattern="sql语句" type="PLAIN_TEXT" />
+      <mapping pattern="readme" type="PLAIN_TEXT" />
       <mapping pattern="S06Synchronized.md" type="PLAIN_TEXT" />
       <mapping pattern="demo" type="PLAIN_TEXT" />
       <mapping pattern="obj" type="PLAIN_TEXT" />
