@@ -1,4 +1,4 @@
-<templateSet group="Enzo">
+<templateSet group="Enzo-Java">
   <template name="syso" value="System.out.println(&quot;&quot;);" description="打印语句" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
@@ -28,44 +28,14 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="oracle_foreach_insert" value="&lt;insert id=&quot;insertBatch&quot;&gt;&#10;        insert into COLLECT_URL_RECORD(ID,RELATION_ID, WEB_TITLE, URL)&#10;        &lt;foreach collection=&quot;list&quot; item=&quot;item&quot; open=&quot;(&quot;  close=&quot;)&quot; separator=&quot;union&quot;&gt;&#10;            select&#10;            #{item.id},#{item.relationId}, #{item.Title}, #{item.Url}&#10;            from&#10;            dual&#10;        &lt;/foreach&gt;&#10;    &lt;/insert&gt;" description="mybatis oracle批量插入" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="XML" value="true" />
-    </context>
-  </template>
-  <template name="mysql_foreach_insert" value="&lt;insert id=&quot;insertBatch&quot; keyProperty=&quot;id&quot; useGeneratedKeys=&quot;true&quot; parameterType=&quot;list&quot;&gt;&#10;     insert into t_cjkc_wzxx&#10;     (f_id,f_ajid, f_lx, f_wjlj, f_sfsc, f_cjr, f_cjsj, f_gxr, f_gxsj) values&#10;     &lt;foreach item=&quot;item&quot; collection=&quot;list&quot; separator=&quot;,&quot; open=&quot;&quot; close=&quot;&quot; index=&quot;index&quot;&gt;&#10;        (#{item.id},#{item.caseId}, #{item.type}, #{item.filePath}, #{item.isDelete},&#10;        #{item.creator},#{item.createTime}, #{item.updater}, #{item.updateTime})&#10;      &lt;/foreach&gt;&#10;&lt;/insert&gt;&#10;" description="mybatis mysql 批量插入" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="XML" value="true" />
-    </context>
-  </template>
   <template name="test" value="@Test&#10;public void test01() throws Exception{&#10;    &#10;}" description="junit test 方法" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="readCsv" value="spark.read.option(&quot;inferSchema&quot;,&quot;true&quot;).option(&quot;header&quot;,&quot;true&quot;).csv(&quot;path&quot;)" description="scala读取CSV" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="SCALA" value="true" />
-    </context>
-  </template>
   <template name="dateFormat" value="@DateTimeFormat(pattern = &quot;yyyy-MM-dd HH:mm:ss&quot;)&#10;@JsonFormat(pattern = &quot;yyyy-MM-dd HH:mm:ss&quot;,timezone = &quot;GMT+8&quot;)" description="时间字段格式化" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
-    </context>
-  </template>
-  <template name="mysql_query_list" value="&lt;if test=&quot;list!=null and list.size()!=0&quot;&gt;&#10;    and id in&#10;    &lt;foreach collection=&quot;list&quot; item=&quot;item&quot; index=&quot;index&quot; open=&quot;(&quot; close=&quot;)&quot; separator=&quot;,&quot;&gt;&#10;        #{item}&#10;    &lt;/foreach&gt;&#10;&lt;/if&gt;" description="mysql查询传入List参数" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="XML" value="true" />
-    </context>
-  </template>
-  <template name="&gt;=" value="&amp;gt;=" description="大于等于转义符" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="XML" value="true" />
-    </context>
-  </template>
-  <template name="&lt;=" value="&amp;lt;=" description="小于等于转义符" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="XML" value="true" />
     </context>
   </template>
   <template name="notemptyStr" value="if(StringUtil.isNotEmpty(&quot;&quot;)){&#10;&#10;}" description="字符串不为空" toReformat="false" toShortenFQNames="true">
@@ -78,19 +48,9 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="oracle_to_date" value="TO_DATE(#{date}, 'YYYY-MM-DD HH24:MI:SS')" description="oracle 转时间" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="XML" value="true" />
-    </context>
-  </template>
   <template name="postApi" value="@PostMapping(&quot;/queryAll&quot;)&#10;@BusniessLogAnnotation(moduleName = &quot;&quot;, optDesc = &quot;&quot;, operateType = LogOperateType.QUERY)&#10;public Result queryAll(@RequestBody JSONObject param) {&#10;    return Result.success(&quot;&quot;);&#10;}" description="PostMapping方法" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
-    </context>
-  </template>
-  <template name="mysql_like" value="and key like CONCAT(CONCAT('%',#{key}),'%')" description="mysql like 查询" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="XML" value="true" />
     </context>
   </template>
   <template name="api" value="    @PostMapping(&quot;list&quot;)&#10;    public Result queryList(@RequestBody Object object){&#10;        return Result.success(&quot;&quot;);&#10;    }&#10;&#10;    @PostMapping(&quot;add&quot;)&#10;    public Result add(@RequestBody Object object){&#10;        return Result.success(&quot;&quot;);&#10;    }&#10;&#10;    @PostMapping(&quot;update&quot;)&#10;    public Result update(@RequestBody Object object){&#10;        return Result.success(&quot;&quot;);&#10;    }&#10;&#10;    @GetMapping(&quot;delete&quot;)&#10;    public Result delete(@RequestParam Integer id){&#10;        return Result.success(&quot;&quot;);&#10;    }" description="增删改查 api" toReformat="false" toShortenFQNames="true">
