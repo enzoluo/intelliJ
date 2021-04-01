@@ -1,0 +1,15 @@
+<application>
+  <component name="EclipseCodeFormatterSettings">
+    <option name="settingsList">
+      <list>
+        <Settings>
+          <option name="formatter" value="ECLIPSE" />
+          <option name="id" value="1617257701836" />
+          <option name="name" value="阿里巴巴规范格式化" />
+          <option name="pathToConfigFileJava" value="$APPLICATION_HOME_DIR$/eclipse-codestyle.xml" />
+          <option name="selectedJavaProfile" value="P3C-CodeStyle" />
+        </Settings>
+      </list>
+    </option>
+  </component>
+</application>
