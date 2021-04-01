@@ -74,9 +74,29 @@
           <option name="url" value="http://192.168.1.200/thinkive/tech/rd/thinkive-micro-service/spring-cloud-demo/demo-xxljob-executor.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://192.168.1.200/thinkive/tech/rd/cb/work-v1/work-common-util.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://192.168.1.200/thinkive/tech/rd/cb/work-v1/work-common-server.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://192.168.1.200/thinkive/tech/rd/cb/work-v1/work-manage-gateway.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://192.168.1.200/thinkive/tech/rd/cb/work-v1/work-manage-view.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://192.168.1.200/thinkive/tech/rd/cb/work-v1/work-manage-server.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\Enzo\work\00thinkive\workspace\spring-cloud-demo" />
+    <option name="cloneParentDir" value="D:\Enzo\work\00thinkive\workspace\work-v1" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ORDER">
