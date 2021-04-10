@@ -94,9 +94,13 @@
           <option name="url" value="http://192.168.1.200/thinkive/tech/rd/cb/work-v1/work-manage-server.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/mybatis/mybatis-3.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\Enzo\work\00thinkive\workspace\work-v1" />
+    <option name="cloneParentDir" value="D:\Enzo\workspace\IDEA\study-workspace\framework" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="SHOW_CHANGES_FROM_PARENTS" value="true" />
